@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="\images\cookit.jpg" />
+    <title>RecipeStash!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headings">
+        <h1 class="linear-wipe">RecipeStash!</h1>
+        <!--<p id="credit">Created by Tausif Ahmed</p>-->
+      </div>
+      <form action="" id="submit">
+        <input type="text" id="search" placeholder="Enter Main Item" />
+        <button class="search-btn" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+      <div class="random">
+        <button class="random-btn" id="random">
+          <i class="fas fa-random" id="randomicon"></i>
+        </button>
+      </div>
+      <div class="result">
+        <div id="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
